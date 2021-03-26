@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535727596193",
+    "project_id": "atg-1f216",
+    "storage_bucket": "atg-1f216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535727596193:android:0f454187be3f1da35ec6e0",
+        "android_client_info": {
+          "package_name": "com.example.atg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535727596193-hkp5pdjbne66rl6tsl56seehgrr6e8do.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0PjQRzBLiq-KEAEV21w04pYxMxwnEy4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535727596193-hkp5pdjbne66rl6tsl56seehgrr6e8do.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
