@@ -18,10 +18,13 @@ class _ListsState extends State<Lists> {
           IconButton(icon: Icon(Icons.notifications,color: Colors.white,), onPressed:(){}),
         ],
         backgroundColor: Colors.teal,
-        title: Text(
-          'List Of All Notes',
-          style: TextStyle(
-              fontWeight: FontWeight.w500, letterSpacing: 0.2, fontSize: 25),
+        title: Container(
+
+          child: Text(
+            'List Of All Notes',
+            style: TextStyle(
+                fontWeight: FontWeight.w500, letterSpacing: 0.2, fontSize: 25),
+          ),
         ),
         centerTitle: true,
       ),

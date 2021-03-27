@@ -15,10 +15,14 @@ class _TrashState extends State<Trash> {
           IconButton(icon: Icon(Icons.notifications,color: Colors.white,), onPressed:(){}),
         ],
         backgroundColor: Colors.teal,
-        title: Text(
+        title: Container(
+
+        child:
+        Text(
           'Restore Notes',
           style: TextStyle(
               fontWeight: FontWeight.w500, letterSpacing: 0.2, fontSize: 25),
+        ),
         ),
         centerTitle: true,
       ),

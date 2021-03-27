@@ -27,10 +27,14 @@ class _DetailsState extends State<Details> {
       appBar: AppBar(
         backgroundColor: Colors.teal,
 
-        title: Text(
+        title:
+        Container(
+
+        child:Text(
           'Details',
           style: TextStyle(
               fontWeight: FontWeight.w500, letterSpacing: 0.2, fontSize: 25),
+        ),
         ),
         centerTitle: true,
       ),
